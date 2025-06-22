@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Search, Filter, X, ChevronDown } from 'lucide-react';
-import { SearchFilters as Filters } from '../types';
+
+import type { SearchFilters as Filters } from '../types';
 
 interface SearchFiltersProps {
   filters: Filters;

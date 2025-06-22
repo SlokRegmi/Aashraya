@@ -1,10 +1,10 @@
+import { Loader } from 'lucide-react';
 import React, { useState } from 'react';
 import { useRooms } from '../hooks/useRooms';
-import { SearchFilters } from '../types';
-import SearchFiltersComponent from './SearchFilters';
+import type { SearchFilters } from '../types';
 import RoomCard from './RoomCard';
 import RoomDetails from './RoomDetails';
-import { Loader } from 'lucide-react';
+import SearchFiltersComponent from './SearchFilters';
 
 interface BrowseRoomsProps {
   onMessage: (landlordId: string) => void;
