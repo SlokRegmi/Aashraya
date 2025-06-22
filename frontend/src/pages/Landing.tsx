@@ -1,4 +1,15 @@
 import { useState } from "react";
+import AuthModal from "../components/AuthModal";
+import BrowseRooms from "../components/BrowseRooms";
+import Dashboard from "../components/Dashboard";
+import FeaturedRooms from "../components/FeaturedRooms";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import RoomDetails from "../components/RoomDetails";
+import Testimonials from "../components/Testimonials";
+import { AuthProvider } from "../context/AuthContext";
+import { useRooms } from "../hooks/useRooms";
 
 
 function AppContent() {

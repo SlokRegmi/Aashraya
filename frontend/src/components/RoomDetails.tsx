@@ -1,10 +1,20 @@
-import React, { useState } from 'react';
-import { 
-  X, Star, MapPin, Users, Wifi, Car, Calendar, MessageCircle, 
-  Heart, Share2, ChevronLeft, ChevronRight, Phone, Mail
+import {
+  Calendar,
+  Car,
+  ChevronLeft, ChevronRight,
+  Heart,
+  Mail,
+  MapPin,
+  MessageCircle,
+  Phone,
+  Share2,
+  Star,
+  Users, Wifi,
+  X
 } from 'lucide-react';
-import { Room, Review } from '../types';
+import React, { useState } from 'react';
 import { mockReviews } from '../data/mockData';
+import type { Room } from '../types';
 
 interface RoomDetailsProps {
   room: Room;
